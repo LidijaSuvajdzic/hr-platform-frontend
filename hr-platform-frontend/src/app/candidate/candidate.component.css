@@ -1,0 +1,105 @@
+table {
+    margin: 20px 0;
+    width: 60%;
+    border-collapse: collapse;
+    font-family: sans-serif;
+    font-size: 14px;
+    text-align: center;
+    margin: 0 auto;
+  }
+ 
+  th {
+    background-color: #333;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px;
+  }
+  
+  td, th {
+      width: 100px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 15%;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+
+  .container {
+    margin-top: 3em;
+    text-align: center;
+  }
+
+  .createContainer {
+      border: 1px solid #333; /* add a 1px solid black border */
+      padding: 10px; /* add some padding to the container */
+    } 
+
+  .updateContainer {
+      border: 1px solid #333; /* add a 1px solid black border */
+      padding: 10px; /* add some padding to the container */
+    }  
+
+  button {
+    background-color: #333;
+    color: #ffffff;
+    padding: 10px 20px;
+    margin-left:  0.1em;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+  }
+
+  .delete{
+    width: 20%;
+  }
+  .update{
+    width: 20%;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  input[type="text"],
+  input[type="date"],
+  input[type="email"],
+  input[type="tel"] {
+    width: 30%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 16px;
+  }
+
+  .checkbox-container {
+    margin: 20px 0;
+    width: 30%;
+    font-family: sans-serif;
+    font-size: 14px;
+    text-align: center;
+    margin: 0 auto;
+  }
+  
+  input[type="checkbox"] {
+    margin-right: 10px; /* Add some spacing between the checkbox and label */
+    transform: translateY(-2px); /* Move the checkbox up slightly */
+  }
+  
+  
+  button[type="submit"] {
+    background-color: #333;
+    color: #ffffff;
+    padding: 10px 20px;
+    margin-left:  0.1em;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  

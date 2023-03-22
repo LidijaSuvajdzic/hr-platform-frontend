@@ -1,0 +1,40 @@
+/* Set font size, color, and weight */
+h1 {
+    font-size: 2em; /* adjust as needed */
+    color: #333; /* adjust to your desired color */
+    font-weight: bold; /* or use "700" as the value */
+  }
+  
+  /* Center align text */
+  h1 {
+    text-align: center;
+  }
+  
+  /* Add margin/padding */
+  h1 {
+    margin-top: 1em; /* adjust as needed */
+    margin-bottom: 0.5em; /* adjust as needed */
+    padding: 0; /* or add padding as needed */
+  }
+  
+  /* Add a border */
+  h1 {
+    border-bottom: 1px solid #333; /* adjust color and thickness as needed */
+  }
+
+  button {
+    background-color: #333;
+    color: #ffffff;
+    padding: 10px 20px;
+    margin-left:  0.1em;
+    width: 10%;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+  }
+
+  .container {
+    margin-top: 3em;
+    text-align: center;
+  }

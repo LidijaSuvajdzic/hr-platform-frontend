@@ -1,0 +1,30 @@
+<div>
+  <div class="container">
+    <button class="create" (click)="openCreateModal()">Create</button>
+  </div>
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr  *ngFor="let skill of skills">
+          <td>{{ skill.name }}</td>
+          <td><button type="delete" (click)="onDeleteSkill(skill.name)">Delete</button></td>
+        </tr>
+      </tbody>
+    </table>
+ 
+    <div  class="container" *ngIf="showCreateModal === true">
+      <form (ngSubmit)="onSubmit()">
+        <div>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required [(ngModel)]="skill.name">
+        </div>
+        <button type="submit">Create Skill</button>
+      </form>
+      
+    </div>
+  </div>

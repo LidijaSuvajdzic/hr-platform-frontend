@@ -1,0 +1,18 @@
+
+<h1>HR PLATFORM</h1>
+<div class="container">
+    <div class="row">
+      <div class="col-md-3">
+        <button (click)="showComponent('candidates')" class="btn btn-primary">Candidates</button>
+        <button (click)="showComponent('skills')" class="btn btn-primary">Skills</button>
+      </div>
+      <div class="col-md-9">
+        <ng-container *ngIf="componentToShow === 'candidates'">
+          <app-candidate></app-candidate>
+        </ng-container>
+        <ng-container *ngIf="componentToShow === 'skills'">
+          <app-skill></app-skill>
+        </ng-container>
+      </div>
+    </div>
+  </div>
